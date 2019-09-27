@@ -1,0 +1,20 @@
+# Site settings
+author: Jessica Cervantes
+title: 
+header-img: img/home-bg.png
+email: cervantesjess1994@gmail.com
+copyright_name: Jessica Cervantes
+description: > # this means to ignore newlines until "baseurl:"
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: Jessica_ixxvii
+github_username:  cervantesjess1994
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
